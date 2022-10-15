@@ -8,8 +8,6 @@ from requests import get
 
 openai.api_key = "<YOUR-OPENAI-API-KEY>"
 
-browser.gatherUsageStats=False
-
 WIKIPEDIA_LINK = "https://en.wikipedia.org/wiki/"
 TRAINING_DIRECTORY = "training_data/"
 
